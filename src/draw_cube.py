@@ -90,7 +90,7 @@ def init():
 
 def draw_cube(cube):
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
-    rotate_scene(*[0.5] * 3)
+    rotate_scene(*[0.8] * 3)
     draw_grid_cube(cube)
 
 

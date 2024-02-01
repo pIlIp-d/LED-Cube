@@ -13,7 +13,7 @@ from src.draw_cube import loop_check, draw_cube, calculate_downward_vector, draw
 VISUALIZE = True
 
 CUBE_SIZE = 2  # fixed to 2
-GRID_SIZE = 8
+GRID_SIZE = 4
 RADIUS = math.sqrt(3) * CUBE_SIZE / 2
 
 value_span_in_radius = np.linspace(-RADIUS, RADIUS, 20)
@@ -199,7 +199,3 @@ def profile(func):
     profiler.disable()
     profiler.dump_stats("profile_data.prof")
 
-
-if __name__ == '__main__':
-    # main()
-    profile(main)
