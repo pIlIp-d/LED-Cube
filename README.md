@@ -7,8 +7,12 @@ The goal is to create a LED cube that operates on its own with included battery 
 
 Possible hardware considerations are 8x8 LED matrices (e.g. ATMA12W83) put together as a cube with microcontroller and attery in the middle.
 
-
 It should behave like a little glass cube filled with water.
+
+### DEMO
+
+![Screen Capture Of A Rotating Cube Including Virtual Water](./demo.gif)
+
 
 ## TODO
 

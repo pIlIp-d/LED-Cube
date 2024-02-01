@@ -13,7 +13,7 @@ from src.draw_cube import loop_check, draw_cube, calculate_downward_vector, draw
 VISUALIZE = True
 
 CUBE_SIZE = 2  # fixed to 2
-GRID_SIZE = 4
+GRID_SIZE = 8
 RADIUS = math.sqrt(3) * CUBE_SIZE / 2
 
 value_span_in_radius = np.linspace(-RADIUS, RADIUS, 20)
